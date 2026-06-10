@@ -23,6 +23,7 @@ public class App {
                 
                 break;
             case 2:
+                Organizator.relatório(path);
 
                 break;
         
