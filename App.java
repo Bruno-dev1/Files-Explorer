@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws IOException{
         Scanner input = new Scanner(System.in);
-        Path path = Paths.get(".1");
+        Path path = Paths.get(".");
         int resp;
         do{
         System.out.println("O que você quer fazer");  
@@ -32,8 +32,5 @@ public class App {
         }while(resp != 0);
         
     }
-   
-
-
 
 }
